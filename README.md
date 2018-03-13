@@ -1,6 +1,7 @@
 # DNAqc_test
 Test DNAqc toolbox with Zebra-fish genome sequences
 
+## Zebra-fish Genome data
 #### Table 1: Summary of Zebra-fish genome from Sanger-Institute:  
   
 | Assembly Version |	Date |	Size (Gb) |	Fragments |	Clone Content	| Note | Download File
@@ -13,13 +14,16 @@ Test DNAqc toolbox with Zebra-fish genome sequences
 |Zv7	|	2007 |	1.44 |	5,036 |	71%	| Scaffolds | Zv7/Zv7_scaffolds.fa.gz
 |Zv8	|	2008 |	1.48 |	11,632 |	77%	| Top-Leve | Zv8/Zv8_toplevel.fa.gz
 |Zv9	|	2010 |	1.41 |	4,560 |	83%	| Top-Level | Zv9/Zv9_toplevel.fa.gz
-
-#### DNAqc toolkit
+  
+  
+## DNAqc toolkit
 DNAqc toolkit is one software developed by Gokhan et.al at National Center for Toxicological Research (NCTR). It is quite powerful.  
 
-* General usage:  
-`Java -jar DNAqc.jar [general options] [command] [command options]`  
-  
+* General usage:
+```java
+Java -jar DNAqc.jar [general options] [command] [command options]  
+```
+
 * Available commands: (option with * means essential)
     - **reevaluate**:     Main function.
     - **generate1**:      Contig Generate command type 1 with given coordinates of contigs on the reference as input
